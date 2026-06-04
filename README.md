@@ -279,7 +279,8 @@ Do am: 56.00
 ## Dashboard
 
 <p align="center">
-  <img src="images/dashboard.png" width="800">
+  <img width="800" alt="Dashboard2" src="https://github.com/user-attachments/assets/63c2b3bd-6e57-4774-be3f-2bc2d0b49cea" />
+  <img width="800" alt="Ganache" src="https://github.com/user-attachments/assets/e7ad4268-90ba-455d-a289-5bd631e8c839" />
 </p>
 
 Dashboard hiển thị:
