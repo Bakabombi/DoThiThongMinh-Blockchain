@@ -1,13 +1,17 @@
-# 🏙️ SMART CITY MONITORING DASHBOARD WITH BLOCKCHAIN INTEGRATION
+# HỆ THỐNG GIÁM SÁT THÀNH PHỐ THÔNG MINH TÍCH HỢP BLOCKCHAIN
 
 <div align="center">
 
-# HỆ THỐNG GIÁM SÁT THÀNH PHỐ THÔNG MINH TÍCH HỢP BLOCKCHAIN
+<p align="center">
+  <img src="images/Logo_DAI_NAM.png" alt="DaiNam University Logo" width="200"/>
+  <img src="images/logoiaot.png" alt="AIoTLab Logo" width="170"/>
+</p>
 
-**Phát triển bởi Sinh viên Khoa Công nghệ Thông tin – Đại học Đại Nam**
+[![Made by AIoTLab](https://img.shields.io/badge/Made%20by%20AIoTLab-blue?style=for-the-badge)](https://www.facebook.com/DNUAIoTLab)
+[![Fit DNU](https://img.shields.io/badge/Fit%20DNU-green?style=for-the-badge)](https://fitdnu.net/)
+[![DaiNam University](https://img.shields.io/badge/DaiNam%20University-red?style=for-the-badge)](https://dainam.edu.vn)
 
 </div>
-
 ---
 
 ## 📖 Giới thiệu
