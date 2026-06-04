@@ -5,7 +5,7 @@
 <p align="center">
   <img src="Pictures/dnu_logo.png" alt="DaiNam University Logo" width="200"/>
   <img src="Pictures/aiotlab_logo.png" alt="AIoTLab Logo" width="170"/>
-  <img src="Pictures/fitdnu_logo.png" alt="FitDNU Logo" width="170"/>
+  <img src="fitdnu_logo.png" alt="FitDNU Logo" width="170"/>
 </p>
 
 [![Made by AIoTLab](https://img.shields.io/badge/Made%20by%20AIoTLab-blue?style=for-the-badge)](https://www.facebook.com/DNUAIoTLab)
