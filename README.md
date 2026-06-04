@@ -6,7 +6,6 @@
   <img width="200" alt="dnu_logo" src="https://github.com/user-attachments/assets/f36135fd-3e2f-4eab-b64f-b2f084e25c99" />
   <img width="200" alt="aiotlab_logo" src="https://github.com/user-attachments/assets/569fbdfb-13be-466b-999c-54c539956298" />
   <img width="200" alt="fitdnu_logo" src="https://github.com/user-attachments/assets/f5031628-3694-4e08-ab4f-59b597e24a0b" />
-
 </p>
 
 [![Made by AIoTLab](https://img.shields.io/badge/Made%20by%20AIoTLab-blue?style=for-the-badge)](https://www.facebook.com/DNUAIoTLab)
