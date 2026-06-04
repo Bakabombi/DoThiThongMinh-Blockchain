@@ -31,7 +31,7 @@ Dữ liệu cảm biến được gửi từ ESP8266 đến máy chủ Flask và
 
 ---
 
-# 🏗️ Kiến trúc hệ thống
+# Kiến trúc hệ thống
 
 <p align="center">
   <img src="images/architecture.png" width="700">
