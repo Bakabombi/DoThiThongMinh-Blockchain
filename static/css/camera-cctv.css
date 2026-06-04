@@ -1,0 +1,232 @@
+/* ====================================
+   SMART CITY CCTV CAMERA SYSTEM
+   ==================================== */
+
+.camera-container {
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.camera-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+}
+
+.camera-feed {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 2px solid transparent;
+}
+
+.camera-feed:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 30px rgba(56, 189, 248, 0.3);
+    border-color: rgba(56, 189, 248, 0.5);
+}
+
+/* Camera Header */
+.camera-header {
+    background: linear-gradient(135deg, rgba(15, 23, 42, 0.9), rgba(30, 41, 59, 0.9));
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(56, 189, 248, 0.3);
+}
+
+.camera-header h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #38bdf8;
+}
+
+.camera-header p {
+    margin: 5px 0 0 0;
+    font-size: 12px;
+    color: #cbd5e1;
+}
+
+/* Camera Status */
+.camera-status {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.status-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    animation: pulse-status 1s infinite;
+}
+
+.camera-status.online .status-dot {
+    background: #22c55e;
+    box-shadow: 0 0 8px #22c55e;
+}
+
+.camera-status.offline .status-dot {
+    background: #ef4444;
+    box-shadow: 0 0 8px #ef4444;
+}
+
+.camera-status.online {
+    color: #22c55e;
+}
+
+.camera-status.offline {
+    color: #ef4444;
+}
+
+@keyframes pulse-status {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.6;
+    }
+}
+
+/* Camera Display - Video or Canvas */
+.camera-display {
+    position: relative;
+    background: #000;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.camera-video,
+.camera-canvas {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Motion Alert */
+.motion-alert {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #ef4444;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 12px;
+    animation: alertBlink 0.5s infinite;
+    z-index: 10;
+}
+
+@keyframes alertBlink {
+    0%, 50% {
+        opacity: 1;
+    }
+    51%, 100% {
+        opacity: 0.3;
+    }
+}
+
+/* Camera Controls */
+.camera-controls {
+    display: flex;
+    gap: 10px;
+    padding: 12px;
+    background: rgba(15, 23, 42, 0.7);
+    border-top: 1px solid rgba(56, 189, 248, 0.2);
+    flex-wrap: wrap;
+}
+
+.btn-control {
+    flex: 1;
+    min-width: 80px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #0f766e, #14b8a6);
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-control:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(20, 184, 166, 0.4);
+    background: linear-gradient(135deg, #14b8a6, #2dd4bf);
+}
+
+.btn-control:active {
+    transform: translateY(0);
+}
+
+/* Camera Info */
+.camera-info {
+    padding: 10px 12px;
+    background: rgba(15, 23, 42, 0.8);
+    border-top: 1px solid rgba(56, 189, 248, 0.2);
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #cbd5e1;
+}
+
+/* Recording Indicator */
+.recording-indicator {
+    display: inline-block;
+    animation: recordingBlink 0.8s infinite;
+}
+
+@keyframes recordingBlink {
+    0%, 100% {
+        color: #ef4444;
+    }
+    50% {
+        color: transparent;
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .camera-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .camera-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .btn-control {
+        min-width: 70px;
+        font-size: 11px;
+        padding: 8px;
+    }
+    
+    .camera-header h3 {
+        font-size: 14px;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .camera-feed {
+        page-break-inside: avoid;
+    }
+}
