@@ -13,7 +13,6 @@
 [![DaiNam University](https://img.shields.io/badge/DaiNam%20University-red?style=for-the-badge)](https://dainam.edu.vn)
 
 </div>
----
 
 ## 📖 Giới thiệu
 
