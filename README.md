@@ -1,4 +1,4 @@
-# HỆ THỐNG GIÁM SÁT THÀNH PHỐ THÔNG MINH TÍCH HỢP BLOCKCHAIN
+# HỆ THỐNG GIÁM SÁT DỮ LIỆU ĐÔ THỊ THÔNG MINH TÍCH HỢP BLOCKCHAIN
 
 <div align="center">
 
