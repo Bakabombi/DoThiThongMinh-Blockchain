@@ -3,8 +3,9 @@
 <div align="center">
 
 <p align="center">
-  <img src="images/Logo_DAI_NAM.png" alt="DaiNam University Logo" width="200"/>
-  <img src="images/logoiaot.png" alt="AIoTLab Logo" width="170"/>
+  <img src="images/dnu_logo.png" alt="DaiNam University Logo" width="200"/>
+  <img src="images/aiotlab_logo.png" alt="AIoTLab Logo" width="170"/>
+  <img src="images/fitdnu_logo.png" alt="FitDNU Logo" width="170"/>
 </p>
 
 [![Made by AIoTLab](https://img.shields.io/badge/Made%20by%20AIoTLab-blue?style=for-the-badge)](https://www.facebook.com/DNUAIoTLab)
