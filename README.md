@@ -3,9 +3,9 @@
 <div align="center">
 
 <p align="center">
-  <img src="Pictures/dnu_logo.png" alt="DaiNam University Logo" width="200"/>
-  <img src="Pictures/aiotlab_logo.png" alt="AIoTLab Logo" width="170"/>
-  <img width="170" alt="fitdnu_logo" src="https://github.com/user-attachments/assets/f5031628-3694-4e08-ab4f-59b597e24a0b" />
+  <img width="200" alt="dnu_logo" src="https://github.com/user-attachments/assets/f36135fd-3e2f-4eab-b64f-b2f084e25c99" />
+  <img width="200" alt="aiotlab_logo" src="https://github.com/user-attachments/assets/569fbdfb-13be-466b-999c-54c539956298" />
+  <img width="200" alt="fitdnu_logo" src="https://github.com/user-attachments/assets/f5031628-3694-4e08-ab4f-59b597e24a0b" />
 
 </p>
 
